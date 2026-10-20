@@ -1,0 +1,34 @@
+.explore-toolbar{margin:0 0 34px}.explore-tabs{display:flex;gap:10px;flex-wrap:wrap}.explore-tabs a{padding:10px 15px;border:1px solid rgba(218,195,139,.18);border-radius:999px;color:#d9d3c5;background:rgba(255,255,255,.025);text-decoration:none;font-size:14px;transition:.25s}.explore-tabs a:hover,.explore-tabs a.active{border-color:rgba(218,195,139,.55);background:rgba(218,195,139,.09);color:#f4e9cf}.explore-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.explore-card{overflow:hidden;border:1px solid rgba(218,195,139,.14);background:linear-gradient(145deg,rgba(20,25,47,.8),rgba(7,10,22,.84));box-shadow:0 18px 50px rgba(0,0,0,.25);border-radius:20px}.explore-card img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}.explore-card-body{padding:24px}.explore-meta{display:flex;gap:10px;flex-wrap:wrap;color:#b9af9b;font-size:12px;letter-spacing:.08em}.explore-meta span:first-child{color:#d9c58f}.explore-card h2{font-size:27px;line-height:1.35;margin:13px 0 8px}.explore-card h3{font-size:15px;font-weight:400;color:#c8c0b1;line-height:1.8;margin:0 0 13px}.explore-card p{color:#b9b7b4;line-height:1.9}.explore-points{display:grid;gap:7px;margin:17px 0;color:#ddd4c3;font-size:14px}.explore-read{width:100%;margin-top:5px;padding:12px;border:1px solid rgba(218,195,139,.25);background:rgba(255,255,255,.025);color:#eee7d8;border-radius:10px;cursor:pointer}.explore-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.explore-actions a{flex:1;min-width:120px;text-align:center;padding:10px 12px;border-radius:10px;background:rgba(218,195,139,.08);border:1px solid rgba(218,195,139,.15);color:#e5d7b8;text-decoration:none;font-size:13px}.article-root{max-width:900px;margin:auto}.article-cover{width:100%;border-radius:22px;border:1px solid rgba(218,195,139,.2);margin-bottom:30px}.article-content{padding:34px;border:1px solid rgba(218,195,139,.14);border-radius:22px;background:rgba(8,12,28,.72)}.article-content .article-meta{color:#b9af9b;font-size:13px;display:flex;gap:12px;flex-wrap:wrap}.article-content h1{font-size:42px;line-height:1.25;margin:14px 0}.article-content .subtitle{font-size:19px;color:#d6cdbd;line-height:1.8}.article-content p{color:#c4c0b8;line-height:2;font-size:16px}.article-content h2{margin-top:30px;color:#e9dfcc}.article-question{margin-top:28px;padding:22px;border-left:2px solid #cdbb8a;background:rgba(218,195,139,.05);color:#eee7d8}.article-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.article-actions a{padding:12px 17px;border-radius:10px;background:rgba(218,195,139,.09);border:1px solid rgba(218,195,139,.2);color:#eadfc9;text-decoration:none}@media(max-width:760px){.explore-grid{grid-template-columns:1fr}.explore-card h2{font-size:23px}.article-content{padding:22px}.article-content h1{font-size:31px}}
+
+/* ===== Explore readability layer ===== */
+.explore-toolbar{margin-bottom:38px;}
+.explore-tabs a{font-size:15px;padding:11px 16px;line-height:1.5;}
+.explore-grid{gap:28px;}
+.explore-card-body{padding:28px;}
+.explore-meta{font-size:14px;line-height:1.6;}
+.explore-card h2{font-size:clamp(22px,2.2vw,27px);line-height:1.35;}
+.explore-card h3{font-size:17px;line-height:1.8;}
+.explore-card p{font-size:16px;line-height:1.9;}
+.explore-points{font-size:15px;line-height:1.8;}
+.explore-read{font-size:16px;min-height:48px;padding:12px 14px;}
+.explore-actions a{font-size:15px;min-height:48px;padding:12px 14px;display:flex;align-items:center;justify-content:center;}
+.article-root{max-width:920px;}
+.article-cover{margin-bottom:34px;}
+.article-content{padding:40px;}
+.article-content .article-meta{font-size:14px;line-height:1.7;}
+.article-content h1{font-size:clamp(34px,4vw,48px);line-height:1.3;}
+.article-content .subtitle{font-size:20px;line-height:1.8;}
+.article-content p{font-size:17px;line-height:1.9;}
+.article-content h2{font-size:26px;line-height:1.35;}
+.article-question{font-size:17px;line-height:1.8;}
+.article-actions a{font-size:16px;min-height:48px;padding:12px 17px;display:flex;align-items:center;}
+@media(max-width:760px){
+  .explore-card-body{padding:24px 20px;}
+  .explore-card h2{font-size:23px;}
+  .explore-card h3{font-size:17px;}
+  .explore-card p{font-size:16px;}
+  .article-content{padding:28px 20px;}
+  .article-content h1{font-size:34px;}
+  .article-content .subtitle{font-size:18px;}
+  .article-content p{font-size:17px;}
+}

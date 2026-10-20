@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const d=new Date();const days=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];document.getElementById("todayDate").textContent=`${d.getFullYear()} 年 ${d.getMonth()+1} 月 ${d.getDate()} 日　${days[d.getDay()]}`;});

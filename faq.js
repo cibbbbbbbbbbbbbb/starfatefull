@@ -1,0 +1,1 @@
+document.querySelectorAll(".faq-question").forEach(q=>q.addEventListener("click",()=>{const item=q.closest(".faq-item"),open=item.classList.toggle("open");q.setAttribute("aria-expanded",open);document.querySelectorAll(".faq-item").forEach(other=>{if(other!==item){other.classList.remove("open");other.querySelector(".faq-question").setAttribute("aria-expanded","false");}})}));

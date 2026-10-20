@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.getElementById('loginSubmit')?.addEventListener('click',()=>window.authSubmit?.('login'));document.getElementById('googleLoginButton')?.addEventListener('click',()=>window.googleLogin?.())});
